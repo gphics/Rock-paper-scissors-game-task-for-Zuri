@@ -59,7 +59,7 @@ def game():
             #return fri
 
     elif (user == R and CPU == S) or (user == S and CPU== P) or (user == P and CPU == R ):
-        print("You won by playing", user, "and Computer played ", CPU)
+        print("You won by playing", user, "and Computer played ", CPU, "You are a winner ", player)
     
     else:
         print("Computer won by playing ", CPU, "and you played ", user)
